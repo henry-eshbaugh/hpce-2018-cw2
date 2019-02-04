@@ -1,0 +1,82 @@
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000716712
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00512093
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0417412
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.450966
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000676081
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.0046545
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0427456
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.477045
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000672936
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00465879
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0459326
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.488459
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000567825
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00421417
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0400374
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.492734
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000596577
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00423533
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0399566
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.476265
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000567874
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00424931
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0405336
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.477435
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000580216
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00433046
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0438743
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.482727
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000533327
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00463505
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0373931
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.475946
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000534186
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00393625
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0381179
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.483153
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000559704
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00389631
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 512, 6.38456, 0.0117179
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0382856
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.469299
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000538179
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00386438
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 512, 6.38456, 0.0121835
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.038488
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.471586
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000524146
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00399745
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0384466
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.466079
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000522123
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00386641
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0418896
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.484397
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000495592
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00395102
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0388129
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.470611
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.000558907
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00406957
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0404042
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.470889
+#  name, allowedP, trueP, n, [sentinel], time
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 64, 8.48267, 0.00055644
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 256, 7.77228, 0.00374381
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 1024, 15.0743, 0.0362177
+hpce.he915.direct_fourier_transform_parfor_inner, 8, 8, 4096, 41.5433, 0.46019

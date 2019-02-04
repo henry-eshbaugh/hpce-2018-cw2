@@ -15,7 +15,12 @@ FOURIER_CORE_OBJS = src/fourier_transform.o src/fourier_transform_register_facto
 # TODO : Add your implementations to this list. Use \ to continue line
 FOURIER_IMPLEMENTATION_OBJS =  \
 	src/fast_fourier_transform.o \
-	src/direct_fourier_transform.o
+	src/direct_fourier_transform.o \
+	src/he915/direct_fourier_transform_parfor_inner.o \
+	src/he915/direct_fourier_transform_parfor_outer.o \
+	src/he915/fast_fourier_transform_taskgroup.o \
+	src/he915/fast_fourier_transform_parfor.o \
+	src/he915/fast_fourier_transform_combined.o
 
 FOURIER_OBJS = $(FOURIER_CORE_OBJS) $(FOURIER_IMPLEMENTATION_OBJS)
 

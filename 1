@@ -1,0 +1,984 @@
+src/he915/direct_fourier_transform_parfor_inner.cpp: In member function ‘virtual void hpce::he915::direct_fourier_transform_parfor_inner::forwards_impl(size_t, const complex_t&, const complex_t*, hpce::complex_t*) const’:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: error: no matching function for call to ‘parallel_for(int, size_t&, int, hpce::he915::direct_fourier_transform_parfor_inner::forwards_impl(size_t, const complex_t&, const complex_t*, hpce::complex_t*) const::<lambda(long unsigned int)>)’
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp: In member function ‘virtual void hpce::he915::direct_fourier_transform_parfor_inner::forwards_impl(size_t, const complex_t&, const complex_t*, hpce::complex_t*) const’:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: error: no matching function for call to ‘parallel_for(int, size_t&, int, hpce::he915::direct_fourier_transform_parfor_inner::forwards_impl(size_t, const complex_t&, const complex_t*, hpce::complex_t*) const::<lambda(long unsigned int)>)’
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:201:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&)’
+ void parallel_for( const Range& range, const Body& body ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:201:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&)’
+ void parallel_for( const Range& range, const Body& body ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:201:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:201:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 2 arguments, 4 provided
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 2 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:208:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::simple_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const simple_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:208:6: note:   template argument deduction/substitution failed:
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:208:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::simple_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const simple_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:208:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:215:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::auto_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const auto_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:215:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:215:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::auto_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const auto_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:215:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:222:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::static_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const static_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:222:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::static_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const static_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:222:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:222:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:229:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::affinity_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, affinity_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:229:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:229:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::affinity_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, affinity_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:229:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:237:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, task_group_context& context ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:237:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:237:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:237:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:244:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const simple_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:244:6: note:   template argument deduction/substitution failed:
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:244:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const simple_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:244:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:40:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::simple_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:40:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::simple_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:251:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const auto_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:251:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const auto_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:251:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:251:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:40:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::auto_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:40:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::auto_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:258:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const static_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:258:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const static_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:258:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:258:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:40:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::static_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:40:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::static_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:265:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, affinity_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:265:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, affinity_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:265:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:265:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:40:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘tbb::affinity_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:40:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘tbb::affinity_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:404:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, affinity_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:404:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, affinity_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:404:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:404:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:399:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const static_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:399:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const static_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:399:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:399:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:394:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const auto_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:394:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:394:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const auto_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:394:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:389:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const simple_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:389:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const simple_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:389:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:389:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:384:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:384:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:384:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:384:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:377:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, affinity_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:377:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, affinity_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:377:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:377:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:372:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const static_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:372:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const static_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:372:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:372:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:367:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const auto_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:367:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const auto_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:367:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:367:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:362:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const simple_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:362:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const simple_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:362:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:362:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:357:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:357:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:357:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:357:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:336:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::affinity_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, affinity_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:336:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::affinity_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, affinity_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:336:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:336:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:331:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::static_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const static_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:331:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::static_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const static_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:331:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:331:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:326:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::auto_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const auto_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:326:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::auto_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const auto_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:326:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:326:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:321:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::simple_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const simple_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:321:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::simple_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const simple_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:321:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:321:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:316:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&)’
+ void parallel_for(Index first, Index last, const Function& f) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:316:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&)’
+ void parallel_for(Index first, Index last, const Function& f) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:316:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:316:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:310:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::affinity_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, affinity_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:310:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:310:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::affinity_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, affinity_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:310:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:305:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::static_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const static_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:305:6: note:   template argument deduction/substitution failed:
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:305:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::static_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const static_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:305:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:300:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::auto_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const auto_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:300:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:300:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::auto_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const auto_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:300:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:295:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::simple_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const simple_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:295:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::simple_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const simple_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:295:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:295:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:290:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:290:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:290:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:290:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:42:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:24:30: warning: unused parameter ‘wn’ [-Wunused-parameter]
+   size_t n, const complex_t &wn,
+             ~~~~~~~~~~~~~~~~~^~
+src/he915/direct_fourier_transform_parfor_inner.cpp:24:30: warning: unused parameter ‘wn’ [-Wunused-parameter]
+   size_t n, const complex_t &wn,
+             ~~~~~~~~~~~~~~~~~^~
+src/he915/direct_fourier_transform_parfor_inner.cpp: In member function ‘virtual void hpce::he915::direct_fourier_transform_parfor_inner::backwards_impl(size_t, const complex_t&, const complex_t*, hpce::complex_t*) const’:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: error: no matching function for call to ‘parallel_for(int, size_t&, int, hpce::he915::direct_fourier_transform_parfor_inner::backwards_impl(size_t, const complex_t&, const complex_t*, hpce::complex_t*) const::<lambda(long unsigned int)>)’
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp: In member function ‘virtual void hpce::he915::direct_fourier_transform_parfor_inner::backwards_impl(size_t, const complex_t&, const complex_t*, hpce::complex_t*) const’:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: error: no matching function for call to ‘parallel_for(int, size_t&, int, hpce::he915::direct_fourier_transform_parfor_inner::backwards_impl(size_t, const complex_t&, const complex_t*, hpce::complex_t*) const::<lambda(long unsigned int)>)’
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:201:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&)’
+ void parallel_for( const Range& range, const Body& body ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:201:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&)’
+ void parallel_for( const Range& range, const Body& body ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:201:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:201:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 2 arguments, 4 provided
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 2 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:208:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::simple_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const simple_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:208:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::simple_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const simple_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:208:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:208:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:215:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::auto_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const auto_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:215:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::auto_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const auto_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:215:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:215:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:222:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::static_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const static_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:222:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::static_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, const static_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:222:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:222:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:229:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::affinity_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, affinity_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:229:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::affinity_partitioner&)’
+ void parallel_for( const Range& range, const Body& body, affinity_partitioner& partitioner ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:229:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:229:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:237:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, task_group_context& context ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:237:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:237:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:237:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   candidate expects 3 arguments, 4 provided
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:244:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const simple_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:244:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const simple_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:244:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:244:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:64:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::simple_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:64:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::simple_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:251:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const auto_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:251:6: note:   template argument deduction/substitution failed:
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:251:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const auto_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:251:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:64:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::auto_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:64:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::auto_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:258:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const static_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:258:6: note:   template argument deduction/substitution failed:
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:258:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, const static_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:258:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:64:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::static_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:64:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘const tbb::static_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:265:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, affinity_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:265:6: note:   template argument deduction/substitution failed:
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:265:6: note: candidate: ‘template<class Range, class Body> void tbb::parallel_for(const Range&, const Body&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for( const Range& range, const Body& body, affinity_partitioner& partitioner, task_group_context& context ) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:265:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:64:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘tbb::affinity_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:64:28: note:   cannot convert ‘1’ (type ‘int’) to type ‘tbb::affinity_partitioner&’
+    tbb::parallel_for(0, n, 1, [&](unsigned long kk){
+                            ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:404:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, affinity_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:404:6: note:   template argument deduction/substitution failed:
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:404:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, affinity_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:404:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:399:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const static_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:399:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const static_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:399:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:399:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:394:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const auto_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:394:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const auto_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:394:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:394:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:389:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const simple_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:389:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, const simple_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:389:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:389:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:384:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:384:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, const Function& f, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:384:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:384:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:377:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, affinity_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:377:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::affinity_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, affinity_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:377:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:377:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:372:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const static_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:372:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::static_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const static_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:372:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:372:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:367:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const auto_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:367:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::auto_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const auto_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:367:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:367:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:362:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const simple_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:362:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:362:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::simple_partitioner&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const simple_partitioner& partitioner, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:362:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:357:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:357:6: note:   template argument deduction/substitution failed:
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:357:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::task_group_context&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, tbb::task_group_context &context) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:357:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:336:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::affinity_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, affinity_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:336:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, tbb::affinity_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, affinity_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:336:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:336:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:331:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::static_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const static_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:331:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::static_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const static_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:331:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:331:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:326:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::auto_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const auto_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:326:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::auto_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const auto_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:326:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:326:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:321:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::simple_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const simple_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:321:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&, const tbb::simple_partitioner&)’
+ void parallel_for(Index first, Index last, const Function& f, const simple_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:321:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:321:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:316:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&)’
+ void parallel_for(Index first, Index last, const Function& f) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:316:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:316:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, const Function&)’
+ void parallel_for(Index first, Index last, const Function& f) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:316:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:310:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::affinity_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, affinity_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:310:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:310:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, tbb::affinity_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, affinity_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:310:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:305:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::static_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const static_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:305:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::static_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const static_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:305:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:305:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:300:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::auto_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const auto_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:300:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:300:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::auto_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const auto_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:300:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:295:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::simple_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const simple_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:295:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&, const tbb::simple_partitioner&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f, const simple_partitioner& partitioner) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:295:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:295:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:290:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f) {
+      ^~~~~~~~~~~~
+In file included from src/he915/direct_fourier_transform_parfor_inner.cpp:6:
+/usr/include/tbb/parallel_for.h:290:6: note: candidate: ‘template<class Index, class Function> void tbb::strict_ppl::parallel_for(Index, Index, Index, const Function&)’
+ void parallel_for(Index first, Index last, Index step, const Function& f) {
+      ^~~~~~~~~~~~
+/usr/include/tbb/parallel_for.h:290:6: note:   template argument deduction/substitution failed:
+/usr/include/tbb/parallel_for.h:290:6: note:   template argument deduction/substitution failed:
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+src/he915/direct_fourier_transform_parfor_inner.cpp:66:5: note:   deduced conflicting types for parameter ‘Index’ (‘int’ and ‘long unsigned int’)
+    });
+     ^
+make: *** [<builtin>: src/he915/direct_fourier_transform_parfor_inner.o] Error 1
+make: *** [<builtin>: src/he915/direct_fourier_transform_parfor_inner.o] Error 1

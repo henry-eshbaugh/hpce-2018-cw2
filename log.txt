@@ -1,0 +1,1 @@
+g++  -I include -W -Wall -std=c++11 -O3  -c -o src/he915/direct_fourier_transform_parfor_inner.o src/he915/direct_fourier_transform_parfor_inner.cpp

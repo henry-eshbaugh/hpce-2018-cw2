@@ -1,0 +1,34 @@
+set term pdf
+set output "direct_inner_vs_k.pdf"
+set key outside
+set title "DFT Runtime vs K"
+set xlabel "K"
+set ylabel "Runtime"
+plot "direct-inner-vs-k-1.dat" using 6 title "n=64" with lines, "direct-inner-vs-k-2.dat" using 6 title "n=256" with lines, "direct-inner-vs-k-3.dat" using 6 title "n=1024" with lines, "direct-inner-vs-k-4.dat" using 6 title "n=4096" with lines
+
+set output "direct_outer_time_vs_p.pdf"
+set title "Runtime vs number of datapoints"
+set xlabel "Number of datapoints"
+set ylabel "Runtime"
+plot "direct-outer-vs-p-1.dat" using 4:6 title "P=1" with lines,  "direct-outer-vs-p-2.dat" using 4:6 title "P=2" with lines,  "direct-outer-vs-p-3.dat" using 4:6 title "P=3" with lines,  "direct-outer-vs-p-4.dat" using 4:6 title "P=4" with lines,  "direct-outer-vs-p-5.dat" using 4:6 title "P=5" with lines,  "direct-outer-vs-p-6.dat" using 4:6 title "P=6" with lines,  "direct-outer-vs-p-7.dat" using 4:6 title "P=7" with lines,  "direct-outer-vs-p-8.dat" using 4:6 title "P=8" with lines 
+
+set output "direct_outer_strong_scaling.pdf"
+set title "Scaling vs number of cores"
+set xlabel "Number of cores"
+set ylabel "Scaling"
+plot "direct-outer-scaling.tsv" using 1:2 title "N=64" with lines, "direct-outer-scaling.tsv" using 1:3 title "N=256" with lines, "direct-outer-scaling.tsv" using 1:4 title "N=1024" with lines, "direct-outer-scaling.tsv" using 1:5 title "N=4096" with lines, "direct-outer-scaling.tsv" using 1:6 title "N=16384" with lines
+
+
+set output "fast_fourier_time_vs_recursion_k.pdf"
+set title "Runtime vs n for recursive grain sizes"
+set xlabel "Number of datapoints"
+set ylabel "Runtime"
+plot "fast-fourier-transform-vs-recursion-k-2.dat" using 4:6 title "K=2" with lines, "fast-fourier-transform-vs-recursion-k-4.dat" using 4:6 title "K=4" with lines, "fast-fourier-transform-vs-recursion-k-8.dat" using 4:6 title "K=8" with lines, "fast-fourier-transform-vs-recursion-k-16.dat" using 4:6 title "K=16" with lines, "fast-fourier-transform-vs-recursion-k-32.dat" using 4:6 title "K=32" with lines, "fast-fourier-transform-vs-recursion-k-64.dat" using 4:6 title "K=64" with lines
+
+set output "fast_fourier_recursion_versus_iteration.pdf"
+set title "Runtime vs number of datapoints for different grain setups"
+set xlabel "Number of datapoints"
+set ylabel "Runtime"
+plot "fft-comb-case1.dat" using 4:6 title "KR=1, KL=1" with lines, "fft-comb-case2.dat" using 4:6 title "KR=1, KL=16" with lines, "fft-comb-case3.dat" using 4:6 title "KR=32, KL=1" with lines, "fft-comb-case4.dat" using 4:6 title "KR=32, KL=16" with lines
+
+exit
